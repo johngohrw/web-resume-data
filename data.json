@@ -1,0 +1,267 @@
+{
+  "defaultLanguage": "en",
+  "languages": {
+    "en": {
+      "profile": {
+        "name": "John Goh Rengwu",
+        "caption": "Software Developer",
+        "location": "KL, Malaysia",
+        "description": "I am a Software Developer",
+        "links": [
+          {
+            "label": "GitHub",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          },
+          {
+            "label": "Website",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          },
+          {
+            "label": "Another one",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          },
+          {
+            "label": "GitHub",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          },
+          {
+            "label": "Website",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          },
+          {
+            "label": "Another one",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "experienceList",
+          "title": "RELEVANT EXPERIENCE",
+          "data": [
+            {
+              "title": "Flanksource",
+              "subtitle": "Front-End Engineer & Designer",
+              "location": "(Remote) Johannesburg, South Africa",
+              "date": "August 2021 - August 2022",
+              "items": [
+                "Built Canary Checker, a Kubernetes multi-tenant synthetic monitoring system as the sole FE dev.",
+                "Contributed tooling, architectural and component design for various projects in React.",
+                "Designed high-fidelity prototypes and conducted heuristic evaluations."
+              ]
+            },
+            {
+              "title": "TDCX",
+              "subtitle": "Front-End Developer",
+              "location": "Kuala Lumpur, Malaysia",
+              "date": "June 2020 - July 2021",
+              "items": [
+                "Developed Flash Coach, a virtual coaching and training platform for employees.",
+                "Web-related maintenance and enhancements; including FE implementation for a major redesign of the company website, automating CMS migrations and backups with Python, and integrating analytical tools."
+              ]
+            },
+            {
+              "title": "Nixel Tech",
+              "subtitle": "Software Engineer and Designer",
+              "location": "Kuala Lumpur, Malaysia",
+              "date": "February 2019 - May 2020",
+              "items": [
+                "Design and FE development for a variety of web projects.",
+                "Maintained a high-traffic news portal and content creation platform, TanTanNews and MOPress.",
+                "Led, managed, and mentored a small team of intern developers."
+              ]
+            },
+            {
+              "title": "Accendo Technologies",
+              "subtitle": "Intern Software Developer",
+              "location": "Kuala Lumpur, Malaysia",
+              "date": "December 2017 - March 2018",
+              "items": [
+                "FE development with React in an Agile team. Responsible for a print-friendly report generation feature.",
+                "Developed a web prototype in Vue.js for a talent management system for IJM Malaysia."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "experienceList",
+          "title": "EDUCATION",
+          "data": [
+            {
+              "title": "Monash University",
+              "subtitle": "Bachelor of Computer Science",
+              "location": "Petaling Jaya, Malaysia",
+              "date": "February 2016 - May 2019",
+              "items": [
+                "Majored in Advanced Algorithms.",
+                "Winner of MDEC's ‘The Grand Challenge 2018’ Hackathon from MDEC Malaysia.",
+                "Highest scorer in the unit Advanced Programming (FIT3140) during Semester 1, 2018 for all Monash campuses worldwide."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "skillList",
+          "title": "SKILLS",
+          "data": [
+            { "name": "javascript", "level": 5 },
+            { "name": "react", "level": 5 },
+            { "name": "python", "level": 5 },
+            { "name": "next.js", "level": 4 },
+            { "name": "tailwind", "level": 4 },
+            { "name": "figma", "level": 3 },
+            { "name": "typescript", "level": 3 },
+            { "name": "linux", "level": 3 },
+            { "name": "vue", "level": 3 },
+            { "name": "svelte", "level": 3 },
+            { "name": "ci/cd", "level": 3 },
+            { "name": "websockets", "level": 2 },
+            { "name": "graphql", "level": 2 },
+            { "name": "gcp/aws", "level": 2 },
+            { "name": "rust", "level": 2 }
+          ],
+          "labels": {
+            "low": "rarely/past",
+            "high": "often/current"
+          }
+        }
+      ]
+    },
+    "cn": {
+      "profile": {
+        "name": "John Goh Rengwu",
+        "caption": "Software Developer",
+        "location": "KL, Malaysia",
+        "description": "I am a Software Developer",
+        "links": [
+          {
+            "label": "GitHub",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          },
+          {
+            "label": "Website",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          },
+          {
+            "label": "Another one",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          },
+          {
+            "label": "GitHub",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          },
+          {
+            "label": "Website",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          },
+          {
+            "label": "Another one",
+            "href": "#",
+            "icon": "https://picsum.photos/64"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "experienceList",
+          "title": "RELEVANT EXPERIENCE",
+          "data": [
+            {
+              "title": "Flanksource",
+              "subtitle": "前端工程师 / 设计师",
+              "location": "（远程）约翰内斯堡, 南非",
+              "date": "2021年8月 - 2022年8月",
+              "items": [
+                "为Canary Checker设计和开发前端, 这是一个Kubernetes多租户合成监控系统。还为React的各种项目做出了工具, 架构和组件设计的贡献。",
+                "设计了高保真原型, 并对新功能进行了启发式评估。"
+              ]
+            },
+            {
+              "title": "TDCX",
+              "subtitle": "前端开发人员",
+              "location": "吉隆坡, 马来西亚",
+              "date": "2020年6月 - 2021年7月",
+              "items": [
+                "开发了Flash Coach,这是一个为员工提供虚拟教练和培训的平台。",
+                "进行与网站相关的维护和增强工作,包括为公司网站的重大重新设计实施前端,使用Python实现CMS迁移和备份自动化,并集成分析工具。"
+              ]
+            },
+            {
+              "title": "Nixel Tech",
+              "subtitle": "软件工程师 / 设计师",
+              "location": "吉隆坡, 马来西亚",
+              "date": "2019年2月 - 2020年5月",
+              "items": [
+                "为多个Web项目进行设计和前端开发。",
+                "维护高流量的新闻门户网站和内容创建平台TanTanNews和MOPress。",
+                "领导、管理和指导一小组实习开发人员。"
+              ]
+            },
+            {
+              "title": "Accendo Technologies",
+              "subtitle": "实习软件开发人员",
+              "location": "吉隆坡, 马来西亚",
+              "date": "2017年12月 - 2018年3月",
+              "items": [
+                "在一个敏捷团队中使用React进行前端开发。负责打印友好的报告生成功能。",
+                "为IJM马来西亚的人才管理系统开发了一个Vue.js的Web原型。"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "experienceList",
+          "title": "EDUCATION",
+          "data": [
+            {
+              "title": "蒙纳士大学 (Monash University)",
+              "subtitle": "计算机科学学士 (Bachelor of Computer Science)",
+              "location": "马来西亚",
+              "date": "2016年2月 - 2019年5月",
+              "items": [
+                "获得马来西亚MDEC“2018年大挑战”黑客马拉松比赛冠军。",
+                "在2018年第一学期全球范围内,成为蒙纳士所有校区Advanced Programming (FIT3140)课程中得分最高的学生。"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "skillList",
+          "title": "SKILLS",
+          "data": [
+            { "name": "javascript", "level": 5 },
+            { "name": "react", "level": 5 },
+            { "name": "python", "level": 5 },
+            { "name": "typescript", "level": 4 },
+            { "name": "next.js", "level": 4 },
+            { "name": "tailwind", "level": 4 },
+            { "name": "figma", "level": 3 },
+            { "name": "linux", "level": 3 },
+            { "name": "vue", "level": 3 },
+            { "name": "svelte", "level": 3 },
+            { "name": "ci/cd", "level": 3 },
+            { "name": "websockets", "level": 2 },
+            { "name": "graphql", "level": 2 },
+            { "name": "gcp/aws", "level": 2 },
+            { "name": "rust", "level": 2 }
+          ],
+          "labels": {
+            "low": "/",
+            "high": "熟悉/经常"
+          }
+        }
+      ]
+    }
+  }
+}
