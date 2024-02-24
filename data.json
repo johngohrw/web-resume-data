@@ -9,35 +9,24 @@
         "description": "I am a Software Developer",
         "links": [
           {
-            "label": "GitHub",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
-          },
-          {
-            "label": "Website",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
-          },
-          {
-            "label": "Another one",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
+            "label": "KL, Malaysia",
           },
           {
             "label": "GitHub",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
+            "href": "https://github.com/johngohrw",
           },
           {
             "label": "Website",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
+            "href": "https://johnrengwu.com",
           },
           {
-            "label": "Another one",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
-          }
+            "label": "Leetcode",
+            "href": "https://leetcode.com/rengwu",
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/rengwu/",
+          },
         ]
       },
       "sections": [
