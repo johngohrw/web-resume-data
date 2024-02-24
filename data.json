@@ -9,24 +9,23 @@
         "description": "I am a Software Developer",
         "links": [
           {
-            "label": "KL, Malaysia",
-            "href": "https://github.com/johngohrw",
+            "label": "KL, Malaysia"
           },
           {
             "label": "GitHub",
-            "href": "https://github.com/johngohrw",
+            "href": "https://github.com/johngohrw"
           },
           {
             "label": "Website",
-            "href": "https://johnrengwu.com",
+            "href": "https://johnrengwu.com"
           },
           {
             "label": "Leetcode",
-            "href": "https://leetcode.com/rengwu",
+            "href": "https://leetcode.com/rengwu"
           },
           {
             "label": "LinkedIn",
-            "href": "https://www.linkedin.com/in/rengwu/",
+            "href": "https://www.linkedin.com/in/rengwu/"
           }
         ]
       },
