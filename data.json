@@ -9,7 +9,8 @@
         "description": "I am a Software Developer",
         "links": [
           {
-            "label": "KL, Malaysia"
+            "label": "KL, Malaysia",
+            "href": "https://github.com/johngohrw"
           },
           {
             "label": "GitHub",
