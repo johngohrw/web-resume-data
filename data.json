@@ -1,256 +1,179 @@
 {
-  "defaultLanguage": "en",
-  "languages": {
-    "en": {
-      "profile": {
-        "name": "John Goh Rengwu",
-        "caption": "Software Developer",
-        "location": "KL, Malaysia",
-        "description": "I am a Software Developer",
-        "links": [
-          {
-            "label": "KL, Malaysia"
-          },
-          {
-            "label": "github.com/johngohrw",
-            "href": "https://github.com/johngohrw"
-          },
-          {
-            "label": "johnrengwu.com",
-            "href": "https://johnrengwu.com"
-          },
-          {
-            "label": "leetcode.com/rengwu",
-            "href": "https://leetcode.com/rengwu"
-          },
-          {
-            "label": "linkedin.com/in/rengwu",
-            "href": "https://www.linkedin.com/in/rengwu/"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "type": "experienceList",
-          "title": "RELEVANT EXPERIENCE",
-          "data": [
-            {
-              "title": "Flanksource",
-              "subtitle": "Front-End Engineer & Designer",
-              "location": "(Remote) Johannesburg, South Africa",
-              "date": "August 2021 - August 2022",
-              "items": [
-                "Built Canary Checker, a Kubernetes multi-tenant synthetic monitoring system as the sole FE dev.",
-                "Contributed tooling, architectural and component design for various projects in React.",
-                "Designed high-fidelity prototypes and conducted heuristic evaluations."
-              ]
+    "defaultLanguage": "en",
+    "languages": {
+        "en": {
+            "profile": {
+                "name": "John Goh Rengwu",
+                "caption": "Full-stack Web Developer & Designer",
+                "location": "KL, Malaysia",
+                "description": "I am a Software Developer",
+                "links": [
+                    {
+                        "label": "KL, Malaysia",
+                        "href": "",
+                        "icon": "data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_1_31)'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M7.99333%200C10.9389%200%2013.3267%202.38781%2013.3267%205.33333C13.3267%206.30489%2013.0676%207.21524%2012.613%208.00031C12.3099%208.52369%2010.77%2011.1903%207.99333%2016C5.21666%2011.1903%203.67677%208.52369%203.37368%208.00031C2.91905%207.21524%202.66%206.30489%202.66%205.33333C2.66%202.38781%205.04781%200%207.99333%200ZM7.99333%203.04762C6.73097%203.04762%205.70762%204.07097%205.70762%205.33333C5.70762%206.5957%206.73097%207.61905%207.99333%207.61905C9.2557%207.61905%2010.279%206.5957%2010.279%205.33333C10.279%204.07097%209.2557%203.04762%207.99333%203.04762Z'%20fill='%23363636'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_1_31'%3e%3crect%20width='16'%20height='16'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                    },
+                    {
+                        "label": "github.com/johngohrw",
+                        "href": "https://github.com/johngohrw",
+                        "icon": "data:image/svg+xml,%3csvg%20width='98'%20height='96'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M48.854%200C21.839%200%200%2022%200%2049.217c0%2021.756%2013.993%2040.172%2033.405%2046.69%202.427.49%203.316-1.059%203.316-2.362%200-1.141-.08-5.052-.08-9.127-13.59%202.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015%204.934.326%207.523%205.052%207.523%205.052%204.367%207.496%2011.404%205.378%2014.235%204.074.404-3.178%201.699-5.378%203.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283%200-5.378%201.94-9.778%205.014-13.2-.485-1.222-2.184-6.275.486-13.038%200%200%204.125-1.304%2013.426%205.052a46.97%2046.97%200%200%201%2012.214-1.63c4.125%200%208.33.571%2012.213%201.63%209.302-6.356%2013.427-5.052%2013.427-5.052%202.67%206.763.97%2011.816.485%2013.038%203.155%203.422%205.015%207.822%205.015%2013.2%200%2018.905-11.404%2023.06-22.324%2024.283%201.78%201.548%203.316%204.481%203.316%209.126%200%206.6-.08%2011.897-.08%2013.526%200%201.304.89%202.853%203.316%202.364%2019.412-6.52%2033.405-24.935%2033.405-46.691C97.707%2022%2075.788%200%2048.854%200z'%20fill='%2324292f'/%3e%3c/svg%3e"
+                    },
+                    {
+                        "label": "johnrengwu.com",
+                        "href": "https://johnrengwu.com",
+                        "icon": "data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_1_44)'%3e%3cpath%20d='M10.5312%206.76801C10.5749%207.19673%2010.6%207.61166%2010.6%208.00001C10.6%208.72694%2010.5122%209.54781%2010.3778%2010.3778C9.54781%2010.5122%208.72694%2010.6%208%2010.6C7.27634%2010.6%206.45572%2010.5124%205.62218%2010.3775C5.48786%209.54759%205.4%208.72686%205.4%208.00001C5.4%207.61181%205.42506%207.19681%205.46887%206.76801C6.34368%206.90804%207.21638%207.00001%208%207.00001C8.7837%207.00001%209.65638%206.90804%2010.5312%206.76801Z'%20fill='%23363636'/%3e%3cpath%20d='M11.7144%206.55194C11.7685%207.05365%2011.8%207.54211%2011.8%208.00001C11.8%208.66813%2011.7331%209.40108%2011.6266%2010.145C13.1371%209.8298%2014.5333%209.42714%2015.2813%209.19788C15.523%209.12382%2015.618%209.09434%2015.7454%209.04337C15.8091%209.01792%2015.8674%208.99201%2015.9435%208.95567C15.9808%208.6423%2016%208.32337%2016%208.00001C16%207.14516%2015.8659%206.32164%2015.6177%205.54932L15.553%205.56967C14.7709%205.80759%2013.3068%206.2282%2011.7144%206.55194Z'%20fill='%23363636'/%3e%3cpath%20d='M15.1632%204.43389C14.377%204.67216%2013.0126%205.05934%2011.5504%205.36078C11.2136%203.31372%2010.6232%201.27201%2010.3392%200.347412C12.4512%200.992204%2014.1922%202.48737%2015.1632%204.43389Z'%20fill='%23363636'/%3e%3cpath%20d='M10.3708%205.57889C9.54309%205.71262%208.7248%205.8%208%205.8C7.2752%205.8%206.45697%205.71262%205.62928%205.5789C5.94645%203.64194%206.51261%201.66328%206.80213%200.718728C6.87619%200.476998%206.90568%200.38205%206.95665%200.254613C6.9821%200.190949%207.008%200.132556%207.04434%200.0564876C7.35771%200.0191847%207.67665%200%208%200C8.33783%200%208.67071%200.0209371%208.99756%200.0615848C9.0045%200.0881067%209.0109%200.11184%209.01722%200.134293C9.03596%200.200632%209.0653%200.293867%209.11451%200.450316L9.1197%200.466751C9.36648%201.25122%2010.0205%203.43925%2010.3708%205.57889Z'%20fill='%23363636'/%3e%3cpath%20d='M4.44955%205.36077C4.78484%203.32273%205.37132%201.29201%205.6548%200.3671L5.66082%200.347412C3.54878%200.992197%201.80777%202.48736%200.836838%204.43388C1.62299%204.67215%202.98739%205.05933%204.44955%205.36077Z'%20fill='%23363636'/%3e%3cpath%20d='M0.382354%205.54932C0.13408%206.32165%200%207.14516%200%208.00002C0%208.33442%200.0205181%208.66402%200.0603657%208.98768L0.186446%209.02973L0.187451%209.03004L0.188686%209.0305L0.189554%209.03073C0.230133%209.04421%201.41947%209.43697%202.98574%209.82669C3.4277%209.93663%203.89567%2010.0453%204.37338%2010.1449C4.26686%209.40101%204.2%208.66814%204.2%208.00002C4.2%207.54196%204.23142%207.05351%204.2855%206.55194C2.69279%206.2281%201.22833%205.80735%200.446453%205.56946L0.441013%205.5678L0.382354%205.54932Z'%20fill='%23363636'/%3e%3cpath%20d='M8%2011.8C8.66812%2011.8%209.40107%2011.7331%2010.145%2011.6266C9.82979%2013.1371%209.42713%2014.5333%209.19787%2015.2812C9.12381%2015.523%209.09433%2015.6179%209.04335%2015.7454C9.01791%2015.8091%208.992%2015.8674%208.95566%2015.9435C8.64229%2015.9808%208.32335%2016%208%2016C7.67665%2016%207.35772%2015.9808%207.04434%2015.9435C7.008%2015.8674%206.9821%2015.8091%206.95665%2015.7454C6.90568%2015.618%206.87619%2015.523%206.80213%2015.2813C6.57288%2014.5334%206.17026%2013.1373%205.85507%2011.6269C6.5965%2011.733%207.3296%2011.8%208%2011.8Z'%20fill='%23363636'/%3e%3cpath%20d='M2.696%2010.9911C1.70555%2010.7447%200.86198%2010.4971%200.347404%2010.3392C1.12196%2012.8763%203.12367%2014.878%205.66082%2015.6525L5.6548%2015.6329C5.40728%2014.8253%204.92874%2013.1746%204.58812%2011.4121C3.92571%2011.284%203.28169%2011.1368%202.696%2010.9911Z'%20fill='%23363636'/%3e%3cpath%20d='M15.6329%2010.3452C14.8253%2010.5927%2013.1745%2011.0713%2011.4119%2011.4119C11.0713%2013.1744%2010.5928%2014.8252%2010.3452%2015.6329L10.3392%2015.6525C12.8763%2014.878%2014.878%2012.8763%2015.6526%2010.3392L15.6329%2010.3452Z'%20fill='%23363636'/%3e%3cpath%20d='M0.0840378%209.008C0.111733%209.01158%200.134308%209.01539%200.141798%209.01706C0.148358%209.01866%200.158636%209.02141%200.162362%209.0224L0.170598%209.02476L0.175032%209.02613L0.179695%209.02758L0.183604%209.0288C0.181409%209.02811%200.13696%209.01699%200.0840378%209.008Z'%20fill='%23363636'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_1_44'%3e%3crect%20width='16'%20height='16'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                    },
+                    {
+                        "label": "leetcode.com/rengwu",
+                        "href": "https://leetcode.com/rengwu",
+                        "icon": "data:image/svg+xml,%3c?xml%20version='1.0'%20standalone='no'?%3e%3c!DOCTYPE%20svg%20PUBLIC%20'-//W3C//DTD%20SVG%2020010904//EN'%20'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3e%3csvg%20version='1.0'%20xmlns='http://www.w3.org/2000/svg'%20width='512.000000pt'%20height='512.000000pt'%20viewBox='0%200%20512.000000%20512.000000'%20preserveAspectRatio='xMidYMid%20meet'%3e%3cg%20transform='translate(0.000000,512.000000)%20scale(0.100000,-0.100000)'%20fill='%23000000'%20stroke='none'%3e%3cpath%20d='M2973%205100%20c-47%20-19%20-165%20-134%20-1153%20-1130%20-606%20-610%20-1126%20-1140%20-1156%20-1177%20-105%20-131%20-187%20-323%20-220%20-517%20-24%20-136%20-15%20-387%2019%20-517%2045%20-174%20109%20-308%20202%20-428%2023%20-31%20270%20-286%20548%20-566%20533%20-539%20578%20-579%20740%20-655%20298%20-140%20688%20-146%20997%20-16%20175%2074%20209%20102%20574%20470%20380%20382%20390%20396%20390%20516%200%20107%20-56%20201%20-152%20257%20-35%2021%20-62%2027%20-122%2031%20-129%207%20-135%203%20-510%20-363%20-350%20-340%20-370%20-356%20-510%20-391%20-50%20-13%20-92%20-15%20-180%20-11%20-127%206%20-200%2026%20-281%2078%20-26%2016%20-269%20256%20-541%20532%20-435%20443%20-498%20510%20-530%20572%20-88%20170%20-89%20389%20-2%20555%2032%2062%2099%20134%20539%20583%20535%20546%20538%20548%20668%20583%20168%2045%20374%2018%20495%20-64%2022%20-15%20182%20-165%20354%20-333%20191%20-186%20331%20-315%20358%20-329%20182%20-93%20411%2054%20414%20265%202%20117%20-5%20126%20-348%20476%20-171%20175%20-342%20343%20-380%20373%20-85%2067%20-240%20148%20-341%20177%20l-74%2022%20273%20281%20c161%20166%20283%20300%20297%20326%2032%2061%2033%20174%203%20241%20-66%20142%20-232%20214%20-371%20159z'/%3e%3cpath%20d='M2162%202314%20c-121%20-60%20-179%20-205%20-138%20-346%2018%20-65%2079%20-138%20140%20-171%20l41%20-22%201145%200%20c1097%200%201146%201%201180%2019%2049%2026%20108%2084%20133%20131%2032%2060%2031%20202%20-1%20265%20-33%2063%20-69%2099%20-127%20126%20l-50%2024%20-1136%200%20-1135%200%20-52%20-26z'/%3e%3c/g%3e%3c/svg%3e"
+                    },
+                    {
+                        "label": "linkedin.com/in/rengwu",
+                        "href": "https://www.linkedin.com/in/rengwu/",
+                        "icon": "data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_1_78)'%3e%3cpath%20d='M14.0952%200H1.90476C0.853333%200%200%200.853333%200%201.90476V14.0952C0%2015.1467%200.853333%2016%201.90476%2016H14.0952C15.1467%2016%2016%2015.1467%2016%2014.0952V1.90476C16%200.853333%2015.1467%200%2014.0952%200ZM4.95238%206.09524V13.3333H2.66667V6.09524H4.95238ZM2.66667%203.98857C2.66667%203.45524%203.12381%203.04762%203.80952%203.04762C4.49524%203.04762%204.92571%203.45524%204.95238%203.98857C4.95238%204.5219%204.52571%204.95238%203.80952%204.95238C3.12381%204.95238%202.66667%204.5219%202.66667%203.98857ZM13.3333%2013.3333H11.0476C11.0476%2013.3333%2011.0476%209.80571%2011.0476%209.52381C11.0476%208.7619%2010.6667%208%209.71429%207.98476H9.68381C8.7619%207.98476%208.38095%208.76952%208.38095%209.52381C8.38095%209.87048%208.38095%2013.3333%208.38095%2013.3333H6.09524V6.09524H8.38095V7.07048C8.38095%207.07048%209.11619%206.09524%2010.5943%206.09524C12.1067%206.09524%2013.3333%207.13524%2013.3333%209.24191V13.3333Z'%20fill='%23363636'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_1_78'%3e%3crect%20width='16'%20height='16'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                    }
+                ]
             },
-            {
-              "title": "TDCX",
-              "subtitle": "Front-End Developer",
-              "location": "Kuala Lumpur, Malaysia",
-              "date": "June 2020 - July 2021",
-              "items": [
-                "Developed Flash Coach, a virtual coaching and training platform for employees.",
-                "Web-related maintenance and enhancements; including FE implementation for a major redesign of the company website, automating CMS migrations and backups with Python, and integrating analytical tools."
-              ]
-            },
-            {
-              "title": "Nixel Tech",
-              "subtitle": "Software Engineer and Designer",
-              "location": "Kuala Lumpur, Malaysia",
-              "date": "February 2019 - May 2020",
-              "items": [
-                "Design and FE development for a variety of web projects.",
-                "Maintained a high-traffic news portal and content creation platform, TanTanNews and MOPress.",
-                "Led, managed, and mentored a small team of intern developers."
-              ]
-            },
-            {
-              "title": "Accendo Technologies",
-              "subtitle": "Intern Software Developer",
-              "location": "Kuala Lumpur, Malaysia",
-              "date": "December 2017 - March 2018",
-              "items": [
-                "FE development with React in an Agile team. Responsible for a print-friendly report generation feature.",
-                "Developed a web prototype in Vue.js for a talent management system for IJM Malaysia."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "experienceList",
-          "title": "EDUCATION",
-          "data": [
-            {
-              "title": "Monash University",
-              "subtitle": "Bachelor of Computer Science",
-              "location": "Petaling Jaya, Malaysia",
-              "date": "February 2016 - May 2019",
-              "items": [
-                "Majored in Advanced Algorithms.",
-                "Winner of MDEC's ‘The Grand Challenge 2018’ Hackathon from MDEC Malaysia.",
-                "Highest scorer in the unit Advanced Programming (FIT3140) during Semester 1, 2018 for all Monash campuses worldwide."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "skillList",
-          "title": "SKILLS",
-          "data": [
-            { "name": "javascript", "level": 5 },
-            { "name": "react", "level": 5 },
-            { "name": "python", "level": 5 },
-            { "name": "next.js", "level": 4 },
-            { "name": "tailwind", "level": 4 },
-            { "name": "figma", "level": 3 },
-            { "name": "typescript", "level": 3 },
-            { "name": "linux", "level": 3 },
-            { "name": "vue", "level": 3 },
-            { "name": "svelte", "level": 3 },
-            { "name": "ci/cd", "level": 3 },
-            { "name": "websockets", "level": 2 },
-            { "name": "graphql", "level": 2 },
-            { "name": "gcp/aws", "level": 2 },
-            { "name": "rust", "level": 2 }
-          ],
-          "labels": {
-            "low": "rarely/past",
-            "high": "often/current"
-          }
+            "sections": [
+                {
+                    "type": "experienceList",
+                    "title": "RELEVANT EXPERIENCE",
+                    "data": [
+                        {
+                            "title": "Flanksource",
+                            "subtitle": "Front-End Engineer & Designer",
+                            "location": "(Remote) Johannesburg, South Africa",
+                            "date": "August 2021 - August 2022",
+                            "items": [
+                                "Design and FE development for `Canary Checker`, a Kubernetes multi-tenant synthetic monitoring system. ",
+                                "Designed high-fidelity prototypes and conducted heuristic evaluations on new features.",
+                                "Contributed tooling, architectural and component design for various projects with React.\n"
+                            ]
+                        },
+                        {
+                            "title": "TDCX",
+                            "subtitle": "Front-End Developer",
+                            "location": "Kuala Lumpur, Malaysia",
+                            "date": "June 2020 - July 2021",
+                            "items": [
+                                "Built `Flash Coach`, a virtual coaching and training platform for employees using Next.js\n",
+                                "Built TDCX's statically-generated website with Gatsby and Strapi.",
+                                "Web-related maintenance and enhancements; i.e. analytics integration, automating CMS backups and migrations"
+                            ]
+                        },
+                        {
+                            "title": "Nixel Tech",
+                            "subtitle": "Software Engineer and Designer",
+                            "location": "Kuala Lumpur, Malaysia",
+                            "date": "February 2019 - May 2020",
+                            "items": [
+                                "Designed and developed a variety of web projects mostly with Vue 2, React, and Python.",
+                                "Developed for `TanTanNews`, a high-traffic news portal, and `MOPress`, an open-source journalism platform.",
+                                "Managed and mentored a team of intern developers from Tunku Abdul Rahman University."
+                            ]
+                        },
+                        {
+                            "title": "Accendo Technologies",
+                            "subtitle": "Intern Software Developer",
+                            "location": "Kuala Lumpur, Malaysia",
+                            "date": "December 2017 - March 2018",
+                            "items": [
+                                "FE development with React in an Agile team. Responsible for a print-friendly report generation feature.",
+                                "Developed a prototype website using Vue for a talent management system by IJM Malaysia."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "experienceList",
+                    "title": "EDUCATION",
+                    "data": [
+                        {
+                            "title": "Monash University",
+                            "subtitle": "Bachelor of Computer Science (Advanced Algorithms)",
+                            "location": "Petaling Jaya, Malaysia",
+                            "date": "February 2016 - May 2019",
+                            "items": [
+                                "Highest scoring candidate in Advanced Programming (FIT3140) during Semester 1, 2018 for all Monash campuses worldwide.",
+                                "MDEC's The Grand Challenge 2018 Hackathon Grand Champion",
+                                "F-Secure Inter-Varsity Cyber Security Competition 2019 Semi-Finalist"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "skillList",
+                    "title": "SKILLS",
+                    "data": [
+                        {
+                            "name": "javascript",
+                            "level": 5
+                        },
+                        {
+                            "name": "react.js",
+                            "level": 5
+                        },
+                        {
+                            "name": "python3",
+                            "level": 5
+                        },
+                        {
+                            "name": "next.js",
+                            "level": 4
+                        },
+                        {
+                            "name": "typescript",
+                            "level": 4
+                        },
+                        {
+                            "name": "sysadmin",
+                            "level": 4
+                        },
+                        {
+                            "name": "linux",
+                            "level": 4
+                        },
+                        {
+                            "name": "svelte",
+                            "level": 3
+                        },
+                        {
+                            "name": "cms integration",
+                            "level": 3
+                        },
+                        {
+                            "name": "figma",
+                            "level": 3
+                        },
+                        {
+                            "name": "vue.js",
+                            "level": 2
+                        },
+                        {
+                            "name": "docker",
+                            "level": 2
+                        },
+                        {
+                            "name": "ci/cd",
+                            "level": 2
+                        },
+                        {
+                            "name": "devops",
+                            "level": 2
+                        },
+                        {
+                            "name": "rustlang",
+                            "level": 1
+                        }
+                    ],
+                    "labels": {
+                        "low": "infrequent/past",
+                        "high": "often/current"
+                    }
+                }
+            ]
         }
-      ]
-    },
-    "cn": {
-      "profile": {
-        "name": "John Goh Rengwu",
-        "caption": "Software Developer",
-        "location": "KL, Malaysia",
-        "description": "I am a Software Developer",
-        "links": [
-          {
-            "label": "GitHub",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
-          },
-          {
-            "label": "Website",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
-          },
-          {
-            "label": "Another one",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
-          },
-          {
-            "label": "GitHub",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
-          },
-          {
-            "label": "Website",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
-          },
-          {
-            "label": "Another one",
-            "href": "#",
-            "icon": "https://picsum.photos/64"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "type": "experienceList",
-          "title": "RELEVANT EXPERIENCE",
-          "data": [
-            {
-              "title": "Flanksource",
-              "subtitle": "前端工程师 / 设计师",
-              "location": "（远程）约翰内斯堡, 南非",
-              "date": "2021年8月 - 2022年8月",
-              "items": [
-                "为Canary Checker设计和开发前端, 这是一个Kubernetes多租户合成监控系统。还为React的各种项目做出了工具, 架构和组件设计的贡献。",
-                "设计了高保真原型, 并对新功能进行了启发式评估。"
-              ]
-            },
-            {
-              "title": "TDCX",
-              "subtitle": "前端开发人员",
-              "location": "吉隆坡, 马来西亚",
-              "date": "2020年6月 - 2021年7月",
-              "items": [
-                "开发了Flash Coach,这是一个为员工提供虚拟教练和培训的平台。",
-                "进行与网站相关的维护和增强工作,包括为公司网站的重大重新设计实施前端,使用Python实现CMS迁移和备份自动化,并集成分析工具。"
-              ]
-            },
-            {
-              "title": "Nixel Tech",
-              "subtitle": "软件工程师 / 设计师",
-              "location": "吉隆坡, 马来西亚",
-              "date": "2019年2月 - 2020年5月",
-              "items": [
-                "为多个Web项目进行设计和前端开发。",
-                "维护高流量的新闻门户网站和内容创建平台TanTanNews和MOPress。",
-                "领导、管理和指导一小组实习开发人员。"
-              ]
-            },
-            {
-              "title": "Accendo Technologies",
-              "subtitle": "实习软件开发人员",
-              "location": "吉隆坡, 马来西亚",
-              "date": "2017年12月 - 2018年3月",
-              "items": [
-                "在一个敏捷团队中使用React进行前端开发。负责打印友好的报告生成功能。",
-                "为IJM马来西亚的人才管理系统开发了一个Vue.js的Web原型。"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "experienceList",
-          "title": "EDUCATION",
-          "data": [
-            {
-              "title": "蒙纳士大学 (Monash University)",
-              "subtitle": "计算机科学学士 (Bachelor of Computer Science)",
-              "location": "马来西亚",
-              "date": "2016年2月 - 2019年5月",
-              "items": [
-                "获得马来西亚MDEC“2018年大挑战”黑客马拉松比赛冠军。",
-                "在2018年第一学期全球范围内,成为蒙纳士所有校区Advanced Programming (FIT3140)课程中得分最高的学生。"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "skillList",
-          "title": "SKILLS",
-          "data": [
-            { "name": "javascript", "level": 5 },
-            { "name": "react", "level": 5 },
-            { "name": "python", "level": 5 },
-            { "name": "typescript", "level": 4 },
-            { "name": "next.js", "level": 4 },
-            { "name": "tailwind", "level": 4 },
-            { "name": "figma", "level": 3 },
-            { "name": "linux", "level": 3 },
-            { "name": "vue", "level": 3 },
-            { "name": "svelte", "level": 3 },
-            { "name": "ci/cd", "level": 3 },
-            { "name": "websockets", "level": 2 },
-            { "name": "graphql", "level": 2 },
-            { "name": "gcp/aws", "level": 2 },
-            { "name": "rust", "level": 2 }
-          ],
-          "labels": {
-            "low": "/",
-            "high": "熟悉/经常"
-          }
-        }
-      ]
+        
     }
-  }
 }
